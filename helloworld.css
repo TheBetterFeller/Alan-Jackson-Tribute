@@ -1,11 +1,14 @@
 body {
     font-family: 'Trebuchet MS', Helvetica;
+    padding: 0;
+    background-color: lightgray;
 }
 
 header {
-    color: black;
-    text-align: center;
-    font-family: 'Trebuchet MS', Helvetica;
+    background-color: orange;
+    display: flex;
+    margin: -2mm;
+    flex-basis: auto;
 }
 
 figcaption {
@@ -16,11 +19,19 @@ figcaption {
 footer {
     background-color: orange;
     margin: -2mm;
-    padding: 2mm;
+    padding: 1vmax;
+}
+
+@media screen and (max-width: 600px) {
+    #jacksonsbio {
+        width: 100%;
+    }
 }
 
 .navbar {
     border: solid gray;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px black;
     border-radius: 10mm;
     border-width: 0.5mm;
     width: 40mm;
@@ -30,6 +41,17 @@ footer {
 
 .article {
     margin: 10mm;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 2em auto;
+}
+
+#title {
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', Helvetica;
 }
 
 #jumptop {
@@ -50,4 +72,15 @@ footer {
     margin: auto;
     height: 30%;
     width: 30%;
+    box-shadow: 5px 5px 5px black;
+}
+
+#jacksonsbio {
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 3%;
+    border-width: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
 }
