@@ -1,0 +1,53 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica;
+}
+
+header {
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', Helvetica;
+}
+
+figcaption {
+    margin-top: 2mm;
+    text-align: center;
+}
+
+footer {
+    background-color: orange;
+    margin: -2mm;
+    padding: 2mm;
+}
+
+.navbar {
+    border: solid gray;
+    border-radius: 10mm;
+    border-width: 0.5mm;
+    width: 40mm;
+    height: fit-content;
+    margin-left: 10mm;
+}
+
+.article {
+    margin: 10mm;
+}
+
+#jumptop {
+    display: block;
+    margin: 10mm;
+    color: white
+}
+
+#jumptop span {
+    display: block;
+    float: right;
+    color: blue;
+}
+
+#ajackson {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 30%;
+    width: 30%;
+}
