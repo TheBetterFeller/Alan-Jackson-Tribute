@@ -1,2 +1,2 @@
-# Alan-Jackson-Tribute
+# Alan Jackson Tribute
 A tribute page for Alan Jackson
